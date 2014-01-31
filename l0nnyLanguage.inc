@@ -167,7 +167,7 @@ stock SetPlayerLanguage(playerid, Languages:langid)
 stock GetPlayerLanguage(playerid)
 {
 	if(!IsPlayerConnected(playerid)) return false;
-	return _:PlayerLangValue[playerid];
+	return PlayerLangValue[playerid];
 }
 
 // Languages scripting functions
